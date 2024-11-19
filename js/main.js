@@ -8,5 +8,5 @@ boutonMeteorologie.addEventListener("click",()=>{
         .then(data => {
             ville.innerHTML=data.name
             textMeteorologie.innerHTML=`Today,the weather is ${data.weather[0].main}.`
-            temperature.innerHTML=`The temperature is ${data.main.temp}K.`
+            temperature.innerHTML=`The temperature is ${(Math.floor((data.main.temp)-273.15))}°C.`
         })})
