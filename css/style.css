@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.page{
+    background-image: url("https://www.01net.com/app/uploads/2021/08/application-meteo-gratuite-680x453.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
